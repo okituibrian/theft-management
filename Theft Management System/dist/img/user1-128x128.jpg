@@ -1,0 +1,89 @@
+// Copyright 2013 The Flutter Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+#ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_PUBLIC_FLUTTER_H_
+#define FLUTTER_SHELL_PLATFORM_WINDOWS_PUBLIC_FLUTTER_H_
+
+#include <dxgi.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <windows.h>
+
+#include "flutter_export.h"
+#include "flutter_messenger.h"
+#include "flutter_plugin_registrar.h"
+
+#if defined(__cplusplus)
+extern "C" {
+#endif
+
+typedef void (*VoidCallback)(void* /* user data */);
+
+// Opaque reference to a Flutter window controller.
+typedef struct FlutterDesktopViewControllerState*
+    FlutterDesktopViewControllerRef;
+
+// Opaque reference to a Flutter window.
+struct FlutterDesktopView;
+typedef struct FlutterDesktopView* FlutterDesktopViewRef;
+
+// Opaque reference to a Flutter engine instance.
+struct FlutterDesktopEngine;
+typedef struct FlutterDesktopEngine* FlutterDesktopEngineRef;
+
+// Properties for configuring a Flutter engine instance.
+typedef struct {
+  // The path to the flutter_assets folder for the application to be run.
+  // This can either be an absolute path or a path relative to the directory
+  // containing the executable.
+  const wchar_t* assets_path;
+
+  // The path to the icudtl.dat file for the version of Flutter you are using.
+  // This can either be an absolute path or a path relative to the directory
+  // containing the executable.
+  const wchar_t* icu_data_path;
+
+  // The path to the AOT library file for your application, if any.
+  // This can either be an absolute path or a path relative to the directory
+  // containing the executable. This can be nullptr for a non-AOT build, as
+  // it will be ignored in that case.
+  const wchar_t* aot_library_path;
+
+  // The name of the top-level Dart entrypoint function. If null or the empty
+  // string, 'main' is assumed. If a custom entrypoint is used, this parameter
+  // must specifiy the name of a top-level function in the same Dart library as
+  // the app's main() function. Custom entrypoint functions must be decorated
+  // with `@pragma('vm:entry-point')` to ensure the method is not tree-shaken
+  // by the Dart compiler.
+  const char* dart_entrypoint;
+
+  // Number of elements in the array passed in as dart_entrypoint_argv.
+  int dart_entrypoint_argc;
+
+  // Array of Dart entrypoint arguments. This is deep copied during the call
+  // to FlutterDesktopEngineCreate.
+  const char** dart_entrypoint_argv;
+
+} FlutterDesktopEngineProperties;
+
+// ========== View Controller ==========
+
+// Creates a view that hosts and displays the given engine instance.
+//
+// This takes ownership of |engine|, so FlutterDesktopEngineDestroy should no
+// longer be called on it, as it will be called internally when the view
+// controller is destroyed. If creating the view controller fails, the engine
+// will be destroyed immediately.
+//
+// If |engine| is not already running, the view controller will start running
+// it automatically before displaying the window.
+//
+// The caller owns the returned reference, and is responsible for calling
+// FlutterDesktopViewControllerDestroy. Returns a null pointer in the event of
+// an error.
+//
+// The Win32 implementation accepts width, height with view hookup explicitly
+// performed using the caller using HWND parenting.
+FLUTTER_EXPORT FlutterDesktopViewControllerRef
+FlutterDes

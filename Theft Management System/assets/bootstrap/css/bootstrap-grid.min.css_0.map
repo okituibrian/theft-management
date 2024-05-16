@@ -1,0 +1,763 @@
+76:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:37:35.146ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:37:35.147ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:37:35.148ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:37:35.149ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:37:35.150ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:37:35.151ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8E60: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:37:35.152ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A8E60: Content-Type=
+2023-11-05T20:37:35.153ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8E60: (no response body)
+2023-11-05T20:37:35.154ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:37:35.155ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:38:22.340ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:38:22.341ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:38:22.342ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:38:22.343ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:38:22.344ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:22.345ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:22.346ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:22.347ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8D20: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:38:22.348ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8D20: (no response body)
+2023-11-05T20:38:22.349ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:38:32.409ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:38:32.409ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:38:32.410ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:38:32.412ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:38:32.412ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:32.414ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:32.416ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:32.417ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8D20: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:38:32.418ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8D20: (no response body)
+2023-11-05T20:38:32.420ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:38:40.055ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:40.056ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:38:40.057ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:39:14.239ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:39:14.240ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:39:14.241ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:39:14.242ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:39:14.243ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:39:14.244ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:39:14.245ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:39:14.246ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7560: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:39:14.247ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7560: Content-Type=
+2023-11-05T20:39:14.248ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7560: (no response body)
+2023-11-05T20:39:14.249ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:39:14.250ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:40:10.086ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:10.086ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:10.087ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:51.490ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:40:51.490ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:40:51.491ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:40:51.492ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:40:51.493ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:51.494ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:51.495ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:51.497ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8960: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:40:51.498ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8960: (no response body)
+2023-11-05T20:40:51.499ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:40:53.300ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:40:53.300ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:40:53.301ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:40:53.302ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:40:53.303ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:53.304ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:53.305ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:40:53.306ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7E20: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:40:53.307ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7E20: Content-Type=
+2023-11-05T20:40:53.308ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7E20: (no response body)
+2023-11-05T20:40:53.309ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:40:53.310ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:41:01.554ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:41:01.554ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:41:01.555ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:41:01.557ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:41:01.557ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:41:01.559ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:41:01.561ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:41:01.562ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6DE0: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:41:01.563ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6DE0: (no response body)
+2023-11-05T20:41:01.565ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:41:40.123ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:41:40.124ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:41:40.125ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:42:32.400ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:42:32.401ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:42:32.402ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:42:32.402ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:42:32.403ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:42:32.404ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:42:32.405ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:42:32.406ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A86E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:42:32.407ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A86E0: Content-Type=
+2023-11-05T20:42:32.409ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A86E0: (no response body)
+2023-11-05T20:42:32.410ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:42:32.411ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:43:10.151ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:10.151ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:10.152ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:32.608ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:43:32.609ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:43:32.612ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:43:32.612ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:43:32.613ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:32.614ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:32.615ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:32.616ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7920: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:43:32.617ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7920: (no response body)
+2023-11-05T20:43:32.618ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:43:42.639ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:43:42.640ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:43:42.641ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:43:42.642ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:43:42.643ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:42.645ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:42.646ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:43:42.648ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8D20: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:43:42.649ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8D20: (no response body)
+2023-11-05T20:43:42.650ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:43:43.649ZI [8032:core_113022640000866223613] sync_engine.cc:2169:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: false
+largest_local_change_id: 5787
+fetching_changes: false
+
+2023-11-05T20:43:44.374ZI [8032:core_113022640000866223613] sync_engine.cc:2169:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: false
+largest_local_change_id: 5787
+fetching_changes: false
+
+2023-11-05T20:44:11.493ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:44:11.494ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:44:11.495ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:44:11.496ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:44:11.497ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:44:11.498ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:44:11.499ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:44:11.500ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A95E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:44:11.501ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A95E0: Content-Type=
+2023-11-05T20:44:11.502ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A95E0: (no response body)
+2023-11-05T20:44:11.503ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:44:11.504ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:44:40.185ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:44:40.185ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:44:40.186ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:45:50.599ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:45:50.601ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:45:50.602ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:45:50.603ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:45:50.603ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:45:50.604ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:45:50.605ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:45:50.606ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7560: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:45:50.607ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7560: Content-Type=
+2023-11-05T20:45:50.608ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7560: (no response body)
+2023-11-05T20:45:50.609ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:45:50.610ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:46:10.238ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:10.238ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:10.239ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:45.713ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:46:45.714ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:46:45.715ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:46:45.716ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:46:45.717ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:45.718ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:45.719ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:45.721ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8D20: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:46:45.721ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8D20: (no response body)
+2023-11-05T20:46:45.722ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:46:55.753ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:46:55.754ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:46:55.755ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:46:55.756ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:46:55.757ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:55.758ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:55.760ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:46:55.761ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8460: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:46:55.762ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8460: (no response body)
+2023-11-05T20:46:55.764ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:47:29.699ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:47:29.699ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:47:29.700ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:47:29.701ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:47:29.702ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:47:29.703ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:47:29.704ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:47:29.705ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8460: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:47:29.706ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A8460: Content-Type=
+2023-11-05T20:47:29.707ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8460: (no response body)
+2023-11-05T20:47:29.708ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:47:29.709ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:47:40.260ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:47:40.261ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:47:40.262ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:49:08.774ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:49:08.775ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:49:08.776ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:49:08.777ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:49:08.778ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:49:08.779ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:49:08.780ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:49:08.781ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7A60: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:49:08.782ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7A60: Content-Type=
+2023-11-05T20:49:08.783ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7A60: (no response body)
+2023-11-05T20:49:08.784ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:49:08.784ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:49:10.289ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:49:10.290ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:49:10.291ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:40.326ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:40.327ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:40.328ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:47.848ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:50:47.849ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:50:47.850ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:50:47.851ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:50:47.852ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:47.853ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:47.853ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:50:47.855ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A95E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:50:47.856ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A95E0: Content-Type=
+2023-11-05T20:50:47.857ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A95E0: (no response body)
+2023-11-05T20:50:47.858ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:50:47.859ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:51:02.848ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:51:02.850ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:51:02.851ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:51:02.853ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:51:02.853ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:51:02.854ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:51:02.855ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:51:02.857ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8D20: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:51:02.858ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8D20: (no response body)
+2023-11-05T20:51:02.859ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:51:12.907ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:51:12.908ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:51:12.909ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:51:12.910ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:51:12.911ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:51:12.912ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:51:12.914ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:51:12.915ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6DE0: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:51:12.916ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6DE0: (no response body)
+2023-11-05T20:51:12.918ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:52:10.360ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:52:10.360ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:52:10.361ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:52:26.933ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:52:26.934ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:52:26.935ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:52:26.936ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:52:26.937ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:52:26.938ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:52:26.939ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:52:26.940ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A9220: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:52:26.941ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A9220: Content-Type=
+2023-11-05T20:52:26.942ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A9220: (no response body)
+2023-11-05T20:52:26.943ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:52:26.943ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:53:40.385ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:53:40.385ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:53:40.386ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:54:06.043ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:54:06.044ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:54:06.044ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:54:06.045ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:54:06.046ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:54:06.047ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:54:06.048ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:54:06.049ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6B60: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:54:06.050ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A6B60: Content-Type=
+2023-11-05T20:54:06.051ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6B60: (no response body)
+2023-11-05T20:54:06.052ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:54:06.053ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:55:10.420ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:55:10.421ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:55:10.422ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:55:45.149ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:55:45.149ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:55:45.150ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:55:45.151ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:55:45.152ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:55:45.153ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:55:45.154ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:55:45.155ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A85A0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:55:45.156ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A85A0: Content-Type=
+2023-11-05T20:55:45.157ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A85A0: (no response body)
+2023-11-05T20:55:45.158ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:55:45.158ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:56:40.445ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:56:40.445ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:56:40.446ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:24.249ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:57:24.250ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:57:24.251ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:57:24.252ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:57:24.253ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:24.254ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:24.254ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:24.255ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A95E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:57:24.256ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A95E0: Content-Type=
+2023-11-05T20:57:24.257ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A95E0: (no response body)
+2023-11-05T20:57:24.259ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:57:24.259ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:57:27.884ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:57:27.884ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:57:27.885ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:57:27.886ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:57:27.887ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:27.888ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:27.889ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:27.890ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6160: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:57:27.891ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6160: (no response body)
+2023-11-05T20:57:27.892ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:57:38.012ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:57:38.013ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:57:38.014ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:57:38.015ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:57:38.016ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:38.017ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:38.021ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:57:38.021ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A5C60: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:57:38.023ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A5C60: (no response body)
+2023-11-05T20:57:38.025ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:58:10.479ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:58:10.479ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:58:10.480ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:59:03.369ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T20:59:03.369ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T20:59:03.370ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T20:59:03.371ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T20:59:03.372ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:59:03.373ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:59:03.374ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:59:03.375ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8D20: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T20:59:03.376ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A8D20: Content-Type=
+2023-11-05T20:59:03.377ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8D20: (no response body)
+2023-11-05T20:59:03.378ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:59:03.379ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T20:59:40.509ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:59:40.510ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T20:59:40.511ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:00:42.498ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:00:42.499ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:00:42.500ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:00:42.501ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:00:42.502ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:00:42.503ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:00:42.504ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:00:42.505ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A9860: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:00:42.506ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A9860: Content-Type=
+2023-11-05T21:00:42.507ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A9860: (no response body)
+2023-11-05T21:00:42.507ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:00:42.508ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:01:10.552ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:01:10.553ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:01:10.554ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:02:21.623ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:02:21.624ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:02:21.625ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:02:21.626ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:02:21.627ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:02:21.628ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:02:21.629ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:02:21.630ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A9860: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:02:21.630ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A9860: Content-Type=
+2023-11-05T21:02:21.631ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A9860: (no response body)
+2023-11-05T21:02:21.632ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:02:21.633ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:02:40.573ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:02:40.574ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:02:40.575ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:03:43.658ZI [8032:core_113022640000866223613] sync_engine.cc:2169:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: false
+largest_local_change_id: 5787
+fetching_changes: false
+
+2023-11-05T21:03:44.378ZI [8032:core_113022640000866223613] sync_engine.cc:2169:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: false
+largest_local_change_id: 5787
+fetching_changes: false
+
+2023-11-05T21:04:00.739ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:04:00.739ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:04:00.740ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:04:00.741ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:04:00.742ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:04:00.743ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:04:00.744ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:04:00.745ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A86E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:04:00.746ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A86E0: Content-Type=
+2023-11-05T21:04:00.748ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A86E0: (no response body)
+2023-11-05T21:04:00.749ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:04:00.750ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:04:10.608ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:04:10.609ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:04:10.610ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:05:39.848ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:05:39.849ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:05:39.850ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:05:39.851ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:05:39.851ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:05:39.852ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:05:39.853ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:05:39.854ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6520: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:05:39.855ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A6520: Content-Type=
+2023-11-05T21:05:39.856ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6520: (no response body)
+2023-11-05T21:05:39.857ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:05:39.858ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:05:40.638ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:05:40.638ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:05:40.639ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:10.675ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:10.676ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:10.677ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:18.947ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:07:18.947ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:07:18.948ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:07:18.949ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:07:18.950ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:18.951ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:18.953ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:07:18.954ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6DE0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:07:18.955ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A6DE0: Content-Type=
+2023-11-05T21:07:18.956ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6DE0: (no response body)
+2023-11-05T21:07:18.957ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:07:18.958ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:08:08.992ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:08:08.992ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:08:08.993ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:08:08.995ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:08:08.995ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:08.997ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:08.998ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:08.999ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7920: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:08:09.000ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7920: (no response body)
+2023-11-05T21:08:09.001ZE [8032:core_113022640000866223613][STRM] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:08:19.124ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:08:19.125ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:08:19.126ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:08:19.127ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:08:19.128ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:19.129ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:19.131ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:19.132ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7920: 0 https://www.googleapis.com/drive/v2internal/changes?supportsAllDrives=true&includeItemsFromAllDrives=true&includeCorpusRemovals=true&includeDeleted=true&includeSubscribed=true&spaces=DRIVE&startChangeId=2147483647&fields=kind%2clargestChangeId%2cselfLink&maxResults=1&reason=302&syncType=2&openDrive=false transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:08:19.133ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7920: (no response body)
+2023-11-05T21:08:19.134ZE [8032:core_113022640000866223613][MIRR] fetch_task.cc:988:FetchCloudChangeIds Can't get largest change id: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:08:40.708ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:40.709ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:40.710ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:58.067ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:08:58.069ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:08:58.071ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:08:58.071ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:08:58.072ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:58.073ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:58.074ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:08:58.075ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7420: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:08:58.076ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7420: Content-Type=
+2023-11-05T21:08:58.077ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7420: (no response body)
+2023-11-05T21:08:58.078ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:08:58.079ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:10:10.751ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:10:10.752ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:10:10.753ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:10:37.202ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:10:37.202ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:10:37.203ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:10:37.204ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:10:37.205ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:10:37.206ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:10:37.207ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:10:37.209ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A9220: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:10:37.209ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A9220: Content-Type=
+2023-11-05T21:10:37.210ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A9220: (no response body)
+2023-11-05T21:10:37.211ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:10:37.212ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:11:40.779ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:11:40.779ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:11:40.780ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:12:16.288ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:12:16.289ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:12:16.290ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:12:16.291ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:12:16.292ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:12:16.293ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:12:16.294ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:12:16.295ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A8960: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:12:16.296ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A8960: Content-Type=
+2023-11-05T21:12:16.297ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A8960: (no response body)
+2023-11-05T21:12:16.298ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:12:16.299ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:13:10.819ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:13:10.819ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:13:10.820ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:13:55.357ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:13:55.358ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:13:55.359ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:13:55.360ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:13:55.361ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:13:55.362ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:13:55.363ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:13:55.363ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7F60: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:13:55.365ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7F60: Content-Type=
+2023-11-05T21:13:55.366ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7F60: (no response body)
+2023-11-05T21:13:55.367ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:13:55.367ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:14:40.848ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:14:40.849ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:14:40.850ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:15:34.492ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:15:34.493ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:15:34.494ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:15:34.495ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:15:34.496ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:15:34.497ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:15:34.498ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:15:34.499ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A95E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:15:34.500ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A95E0: Content-Type=
+2023-11-05T21:15:34.501ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A95E0: (no response body)
+2023-11-05T21:15:34.502ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:15:34.503ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:16:10.891ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:16:10.892ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:16:10.892ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:17:13.586ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:17:13.587ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:17:13.588ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:17:13.589ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:17:13.590ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:17:13.591ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:17:13.592ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:17:13.593ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7E20: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:17:13.594ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7E20: Content-Type=
+2023-11-05T21:17:13.595ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7E20: (no response body)
+2023-11-05T21:17:13.596ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:17:13.597ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:17:40.922ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:17:40.923ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:17:40.924ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:18:52.663ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:18:52.664ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:18:52.665ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:18:52.666ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:18:52.667ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:18:52.668ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:18:52.669ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:18:52.670ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A95E0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:18:52.671ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A95E0: Content-Type=
+2023-11-05T21:18:52.672ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A95E0: (no response body)
+2023-11-05T21:18:52.673ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:18:52.674ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:19:10.962ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:19:10.963ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:19:10.964ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:20:31.777ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:20:31.778ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:20:31.779ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:20:31.780ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:20:31.781ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:20:31.782ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:20:31.783ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:20:31.784ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7E20: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:20:31.785ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7E20: Content-Type=
+2023-11-05T21:20:31.786ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7E20: (no response body)
+2023-11-05T21:20:31.787ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:20:31.788ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:20:40.997ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:20:40.998ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:20:40.999ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:22:10.891ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:22:10.892ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:22:10.893ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:22:10.894ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:22:10.895ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:22:10.896ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:22:10.897ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:22:10.898ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A6A20: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:22:10.899ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A6A20: Content-Type=
+2023-11-05T21:22:10.900ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A6A20: (no response body)
+2023-11-05T21:22:10.901ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:22:10.902ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:22:11.036ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:22:11.037ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:22:11.038ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:41.068ZE [10228:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:41.069ZE [15140:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:41.070ZI [15140:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:43.672ZI [8032:core_113022640000866223613] sync_engine.cc:2169:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: false
+largest_local_change_id: 5787
+fetching_changes: false
+
+2023-11-05T21:23:44.391ZI [8032:core_113022640000866223613] sync_engine.cc:2169:operator() Sync engine activity state:
+operation_queue_size: 0
+all_downloads: 0
+operation_queue_unique_size: 0
+change_ids_up_to_date: false
+largest_local_change_id: 5787
+fetching_changes: false
+
+2023-11-05T21:23:44.460ZI [8032:core_113022640000866223613] core.cc:1333:GetFeatureConfig Polling latest feature flags
+2023-11-05T21:23:44.461ZI [5776:Phenotype Background] portable_phenotype_client_impl.cc:191:UNKNOWN Syncing now if stale
+2023-11-05T21:23:44.466ZI [8032:core_113022640000866223613] portable_phenotype_client_impl.cc:269:UNKNOWN Successfully fetched latest configuration for package: drive_fs_ph (5 ms)
+2023-11-05T21:23:44.625ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:23:44.626ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:23:44.627ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:23:44.628ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:23:44.629ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:44.630ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:44.631ZE [5776:Phenotype Background] phenotype_http_client.cc:184:RefreshAccountTokens Failed to refresh access token with status: UNAVAILABLE: Failed to refresh access token for okituibrian@gmail.com [type.googleapis.com/drive.ds.Status='UNAVAILABLE_WHILE_OFFLINE']
+=== Source Location Trace: === 
+apps/drive/fs/core/core.cc:614
+
+2023-11-05T21:23:44.632ZI [5776:Phenotype Background] phenotype_impl.cc:473:UNKNOWN ShouldSync: More than four hours since last sync.
+2023-11-05T21:23:44.694ZE [7616:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:44.695ZE [13656:NonCelloThread] phenotype_impl.cc:841:UNKNOWN Sync: Failed to sync response has status -1
+2023-11-05T21:23:44.695ZI [13656:NonCelloThread] portable_phenotype_client_impl.cc:200:UNKNOWN Failed to sync now with heterodyne: Error
+2023-11-05T21:23:44.797ZI [5776:Phenotype Background] phenotype_impl.cc:880:UNKNOWN PerformSync: Removed orphaned data.
+2023-11-05T21:23:49.992ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:23:49.992ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:23:49.993ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:23:49.994ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:23:49.995ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:49.996ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:49.997ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:23:49.998ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A85A0: 0 https://play.googleapis.com/log transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:23:49.999ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A85A0: Content-Type=
+2023-11-05T21:23:50.000ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A85A0: (no response body)
+2023-11-05T21:23:50.001ZE [10156:MetricsTransportThread] metrics_transport.cc:224:SendRequest Request failed: drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:23:50.002ZI [10156:MetricsTransportThread] metrics_transport.cc:432:ProcessRequestsOnBackgroundThread Metrics failed to send, drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:24:02.615ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:24:02.616ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:24:02.617ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:24:02.618ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:24:02.619ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:24:02.620ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:24:02.621ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:24:02.622ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7420: 0 https://drivefrontend-pa.googleapis.com/v1/account transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:24:02.623ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7420: Content-Type=application/x-protobuf
+2023-11-05T21:24:02.624ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7420: X-Goog-Ext-472780938-bin=CgRCAEgB
+2023-11-05T21:24:02.625ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog req.hdr 00000188FC4A7420: X-Goog-FieldMask=account.drive_for_desktop_settings.can_use_fs_presence,account.drive_for_desktop_settings.show_fs_download,account.drive_for_desktop_settings.can_use_photos,account.drive_for_desktop_settings.can_use_mirror,account.drive_for_desktop_settings.can_use_slurp,account.drive_for_desktop_settings.can_mirror_my_drive,account.security_settings.is_cse_enabled,account.security_settings.is_cse_create_enabled,account.security_settings.is_cse_on_by_default,account.enterprise_settings.is_dasher_user,account.enterprise_settings.is_dasher_admin,account.enterprise_settings.can_access_admin_console
+2023-11-05T21:24:02.626ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7420: (no response body)
+2023-11-05T21:24:02.627ZI [8032:core_113022640000866223613] cello.cc:3385:operator() Checking cached data because cloud is unavailable drive::ds::Status::TEMPORARILY_UNAVAILABLE
+2023-11-05T21:24:03.597ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: processing: https://www.googleapis.com/oauth2/v4/token
+2023-11-05T21:24:03.597ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: timeout on name lookup is not supported
+2023-11-05T21:24:03.598ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Could not resolve host: www.googleapis.com
+2023-11-05T21:24:03.599ZI [10276:CurlWorker0] curl_api.cc:1064:LogCurlInfo == Info: Closing connection
+2023-11-05T21:24:03.600ZE [10276:CurlWorker0] curl_api.cc:135:StatusFromCurlCode Remapped curl code 6 to drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:24:03.601ZE [8032:core_113022640000866223613] oauth_credential.cc:251:operator() Failed to refresh token. Transport error: drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:24:03.602ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:6193:operator() Failed to request access token with status drive::ds::Status::UNAVAILABLE_WHILE_OFFLINE
+2023-11-05T21:24:03.603ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Request 00000188FC4A7920: 0 https://www.googleapis.com/drive/v2internal/settings?namespace=FEATURE_SWITCH transport: drive::ds::Status::TEMPORARILY_UNAVAILABLE reader: drive::ds::Status::SUCCESS
+2023-11-05T21:24:03.603ZE [8032:core_113022640000866223613] drive_v2_cloud_store.cc:5048:DumpToLog Response body 00000188FC4A7920: (no response body)
+2023-11-05T21:24:03.604ZE [8032:core_113022640000866223613] core.cc:960:operator() Can't fetch latest feature flags: UNAVAILABLE: From legacy status [type.googleapis.com/drive.ds.Status='TEMPORARILY_UNAVAILABLE']
+=== Source Location Trace: === 
+apps/drive/fs/core/stream/cello_fs.cc:4359
+
+2023-11-05T21:24:03.605ZI [8032:core_113022640000866223613] core.cc:1437:MergeFeatureConfigs Legacy flag fetch failed; falling back to cached flags
+2023-11-05T21:24:03.607ZI [8032:core_113022640000866223613] core.cc:1495:MergeFeatureConfigs Using legacy account feature flags for: lookup_spam_detection_duration_ms, open_spam_detection_duration_ms, enable_cse, enable_dynamic_list_changes_page_sizing, use_modern_feature_flags, driveway_settings_launch, photos_enable_hash_integrity_check
+2023-11-05T21:24:03.608ZI [8032:core_113022640000866223613] core.cc:1519:MergeFeatureConfigs Using legacy global feature flags for: crash_oom_threshold_mb, use_mac_fileprovider, encrypt_and_upload
+2023-11-05T21:24:03.609ZI [8032:core_113022640000866223613] core.cc:1220:TestConfigDifferences Modern config snapshot (2, 1 accounts active): 0 added, 0 removed, 1 changed, 452 matched
+2023-11-05T21:24:03.646ZI [8032:core_113022640000866223613] core.cc:877:ApplyFeatureConfigChange No changes to account features or admin settings or security settings or enterprise settings.
+2023-11-05T21:24:03.647ZI [13656:NonCelloThread] global_features_manager.cc:338:SetGlobalFeatures Set global features for account 113022640000866223613
+2023-11-05T21:24:03.648ZI [13656:NonCelloThread] global_features_manager.cc:386:CompositeAll Compositing global features based on 1 accounts
+2023-11-05T21:24:03.649ZI [13656:NonCelloThread] global_features_manager.cc:402:CompositeAll Composited global features *WITHOUT* overrides: drive_dot: true
+share_dialog: true
+browser_auth_wait_for_client_timeout_ms: 300000
+pause_syncing_option: true
+bandwidth_throttling: true
+structured_logging: true
+disable_unified_buffer_cache: false
+context_menu_force_refresh_folder: true
+status_window_click_show_file_in_file_manager: true
+max_core_restarts_after_db_corruption: 10
+thread_stuck_threshold_sec: 0
+outlook_addin: false
+gui_autostart_option: true
+show_live_stream_frame_in_outlook_onboarding: false
+max_connection_idle_time_msec: 600000
+mojave_overlays_fix: false
+gui_reset_preferences_menu_option: true
+force_refresh_folder_normal_menu: false
+structured_log_max_file_size_kbytes: 2048
+structured_log_max_file_count: 5
+ask_to_copy_files_for_pending_uploads: true
+read_only_mode: false
+inform_users_of_pending_uploads: true
+same_content_dedupe_interval_ms: 600000
+dedupe_interval_ms: 2000
+support_status_notification: true
+deprecation_date: "2024-09-11"
+deprecation_warning_threshold: 30
+min_supported_os_version: "10.0.0"
+crash_oom_threshold_mb: 1048576
+allow_search: true
+finish_syncing_files_option: true
+osxfuse_process_blacklist: "esets_daemon;scep_daemon"
+osxfuse_lock_abort_test: false
+osxfuse_sched_flags_offset_override: 4294967295
+add_shortcut_menu: true
+meet_outlook_addin: false
+meet_uri: "https://meetings.clients6.google.com/v1/spaces"
+spotlight_timestamp_fsctl_support: true
+mac_disk_arbitration_unmount: true
+meet_live_stream_info_uri: ""
+current_drive_fs_version: "81.0.5.0"
+crash_throttle_percentage: 0
+file_revisions_virtual_folder: true
+unlocked_mac_getxattr_v2: false
+unlocked_mac_buf_unmap: true
+switchblade_dss: false
+reconnected_nas_polling_interval_seconds: 60
+use_mac_fileprovider: false
+trim_parents_during_cloud_merge: true
+trim_parents_during_commit: true
+create_gsuite_file: true
+file_provider_quick_access_polling_interval_sec: 43200
+show_quick_access_in_search_dialog: true
+multi_account_max_accounts: 4
+include_user_email_in_feedback: true
+slurp_poll_path_frequency_min: 240
+mac_smb_port: -1
+fileprovider_signal_debounce_ms: 250
+osxfuse_sched_flags_offset_override_arm: 4294967295
+current_os_version: "Windows/10.0.19045"
+cancel_com_calls: true
+enable_file_provider_migration: true
+file_provider_quit_grace_period_ms: 0
+file_provider_add_items_to_ws_on_listing: true
+smb_allowed: true
+logging_on_cello_thread_startup: false
+mac_smb_dialect_mode: 0
+local_file_reading_buffer_size: 8388608
+force_file_provider_materialization: true
+dokan_set_internal_file_index: true
+context_menu_create_editor_files: false
+file_provider_remove_domain_flush_timeout_ms: 300000
+file_revisions_file_provider: true
+aggregation_interval_ms: 0
+max_file_provider_ipc_connections: 100
+mac_smb_nobrowse: true
+special_folder_change_notification: true
+soon_to_be_min_supported_os_version: "10.0.0"
+soon_to_be_unsupported_os_learn_more: "https://support.google.com/drive/answer/2375082"
+instrument_http_client: true
+show_offline_files_menu_option: true
+enable_mirror_roots_context: true
+use_cros_htt
